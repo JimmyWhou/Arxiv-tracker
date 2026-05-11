@@ -1,12 +1,36 @@
-categories: ["cs.CV", "cs.LG", "cs.AI"]
+categories:
+  - "cond-mat.stat-mech"
+  - "cond-mat.dis-nn"
+  - "cond-mat.soft"
+  - "math-ph"
+  - "nlin.AO"
+  - "stat.ML"
+
 keywords:
-  - "open vocabulary"
-  - "open-vocabulary"
-  - "open vocabulary segmentation"
-  - "open-vocabulary segmentation"
-  - "vision language model"
-  - "training-free"
-  - "training free"
+  - "statistical physics"
+  - "Catalan numbers"
+  - "chaos"
+  - "conformal field theory"
+  - "critical phenomena"
+  - "dynamical systems"
+  - "extreme value theory"
+  - "high dimensional statistics"
+  - "Ising model"
+  - "large deviations theory"
+  - "Lee Yang theory"
+  - "Yang Lee zeros"
+  - "machine learning"
+  - "network capacity"
+  - "phase transition"
+  - "random energy model"
+  - "random language model"
+  - "random walk"
+  - "rare events"
+  - "restricted Boltzmann machine"
+  - "random matrix theory"
+  - "spin glasses"
+  - "stochastic process"
+  - "teacher student scenario"
 
 # exclude_keywords: # 选择排除的关键词
 #   - "Large Language Model"
@@ -60,7 +84,7 @@ llm:
     and key experimental findings. Be objective and specific; avoid marketing language.
     Preserve any provided links, but do NOT repeat them in the paragraph.
   system_prompt_zh: |
-    你是资深论文阅读助手。基于给定的论文元信息与摘要，用中文写「一段」简洁的总结，
+    你是资深论文阅读助手。基于给定的论文元信息与摘要，用中文写「一段」详细正确的总结，
     包含研究动机、核心方法与关键实验结果。保持客观、术语准确；避免营销式表述。
     如有链接请保留，但不要在总结里重复链接。
 
